@@ -1,10 +1,8 @@
-<script lang="ts" setup>
-import ContentContainer from "./wrapper/ContentContainer.vue"
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="w-100% bg-black text-white">
-    <ContentContainer>Footer Content & Socials & More</ContentContainer>
+  <div class="w-100% bg-black text-white p-4">
+    Footer Content & Socials & More
   </div>
 </template>
 
