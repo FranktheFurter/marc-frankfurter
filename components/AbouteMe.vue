@@ -2,7 +2,7 @@
 
 <template>
   <section id="aboutme" class="container mx-auto py-8 flex gap-8">
-    <div class="w-38% bg-gray"></div>
+    <div class="w-38% bg-gray rounded-8"></div>
     <div class="w-62%">
       <p>
         Greetings, my name is Marc Frankfurter, and I am a highly motivated

@@ -2,10 +2,9 @@
 
 <template>
   <section id="contact" class="container mx-auto py-8">
-    <h2>Contact</h2>
-    <div class="flex gap-8">
-      <div class="w-1/2 h-200 bg-gray"></div>
-      <div class="w-1/2 h-200 bg-gray"></div>
+    <div class="flex gap-8 h-80vh">
+      <div class="w-1/2 h-100% bg-gray rounded-8"></div>
+      <div class="w-1/2 h-100% bg-gray rounded-8"></div>
     </div>
   </section>
 </template>

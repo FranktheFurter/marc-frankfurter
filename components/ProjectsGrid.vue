@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import projects from "@/data/projects"
+import projects from "@/data/projects";
 </script>
 
 <template id="projects">
@@ -7,9 +7,13 @@ import projects from "@/data/projects"
     <div
       class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-8"
     >
-      <div v-for="project in projects" :key="project.id" class="bg-gray w-100%">
+      <div
+        v-for="project in projects"
+        :key="project.id"
+        class="bg-gray w-100% rounded-8"
+      >
         <NuxtLink :to="`projects/${project.id}`">
-          <div class="h-300px">{{ project.title }}</div>
+          <div class="h-300px p-8">{{ project.title }}</div>
         </NuxtLink>
       </div>
     </div>
