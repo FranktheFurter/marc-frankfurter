@@ -1,8 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section id="aboutme" class="container mx-auto">
-    <h2>About Me:</h2>
+  <section id="aboutme" class="container mx-auto py-8">
     <p>
       Greetings, my name is Marc Frankfurter, and I am a highly motivated
       front-end developer and designer with a passion for technology. My
