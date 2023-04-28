@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <div>
+  <div class="mx-4">
     <NuxtPage />
   </div>
   <Footer />
