@@ -22,6 +22,7 @@
     "nuxt": "^3.4.2"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.1.0",
     "nuxi": "^3.4.2"
   }
 }
