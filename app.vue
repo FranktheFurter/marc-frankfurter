@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <div class="mx-4">
+  <div class="mx-4 min-h-100vh">
     <NuxtPage />
   </div>
   <Footer />
@@ -9,6 +9,6 @@
 /* css resets and other global styles*/
 body {
   margin: 0;
-  @apply font-comfortaa;
+  @apply font-comfortaa bg-black text-white;
 }
 </style>
