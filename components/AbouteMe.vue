@@ -2,8 +2,8 @@
 
 <template>
   <section id="aboutme" class="container mx-auto py-8 flex gap-8">
-    <div class="w-38% bg-gray rounded-8"></div>
-    <div class="w-62%">
+    <div class="w-62% bg-gray rounded-8"></div>
+    <div class="w-38%">
       <p>
         Greetings, my name is Marc Frankfurter, and I am a highly motivated
         front-end developer and designer with a passion for technology. My
