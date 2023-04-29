@@ -1,0 +1,1 @@
+import{h as t,k as o,b as r,t as s,u as a,o as n}from"./entry.c23b522e.js";const d=t({__name:"[id]",setup(u){const e=o().params.id;return(i,p)=>(n(),r("div",null,"Projects by id: "+s(a(e)),1))}});export{d as default};
