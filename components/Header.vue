@@ -22,24 +22,28 @@ const scrollToSection = async (sectionId: string) => {
     <div
       class="flex gap-8 container mx-auto justify-center items-center h-100%"
     >
-      <NuxtLink class="cursor-pointer" @click.prevent="scrollToSection('hero')"
+      <NuxtLink class="header-link" @click.prevent="scrollToSection('hero')"
         >Home</NuxtLink
       >
-      <NuxtLink
-        class="cursor-pointer"
-        @click.prevent="scrollToSection('aboutme')"
+      <NuxtLink class="header-link" @click.prevent="scrollToSection('aboutme')"
         >About Me</NuxtLink
       >
-      <NuxtLink
-        class="cursor-pointer"
-        @click.prevent="scrollToSection('projects')"
+      <NuxtLink class="header-link" @click.prevent="scrollToSection('projects')"
         >Projects</NuxtLink
       >
-      <NuxtLink
-        class="cursor-pointer"
-        @click.prevent="scrollToSection('contact')"
+      <NuxtLink class="header-link" @click.prevent="scrollToSection('contact')"
         >Contact</NuxtLink
       >
     </div>
   </div>
 </template>
+<style scoped>
+.header-link {
+  @apply cursor-pointer p-2 border-solid rounded-2 transition-custom ease-in-out duration-150  hover:rounded-1;
+}
+.transition-custom {
+  transition-property: color, background-color, border-color, outline-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, border-radius;
+}
+</style>
