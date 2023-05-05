@@ -1,4 +1,5 @@
 <template>
+  <BigHero />
   <Header />
   <div class="mx-4 min-h-100vh">
     <NuxtPage />
